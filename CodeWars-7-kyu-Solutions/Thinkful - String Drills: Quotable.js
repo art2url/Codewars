@@ -14,6 +14,12 @@
 // is to fix it so the function returns correctly 
 // formatted quotes.
 
+// v1
+function quotable(name, quote) {
+    return `${name} said: "${quote}"`;
+}
+
+// v2
 function quotable(name, quote) {
     return name + ` said: ` + `"` + quote + `"`;
 }
