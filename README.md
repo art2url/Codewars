@@ -8,3 +8,4 @@ Created by https://github.com/art2url/
 ![Build Status](https://img.shields.io/github/last-commit/art2url/Codewars)
 ![Build Status](https://img.shields.io/github/languages/top/art2url/Codewars)
 ![Build Status](https://img.shields.io/github/languages/code-size/art2url/Codewars)
+![Build Status](https://img.shields.io/github/languages/count/art2url/Codewars)
