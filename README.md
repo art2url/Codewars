@@ -1,5 +1,4 @@
-# Codewars
-[![Build Status](https://www.codewars.com/users/art2url/badges/large)](https://www.codewars.com/users/art2url)
+# Codewars [![Build Status](https://www.codewars.com/users/art2url/badges/large)](https://www.codewars.com/users/art2url)
 
 CodeWars Solutions. 
 Please leave a star :) Thank you! 
