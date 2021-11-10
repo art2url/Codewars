@@ -1,4 +1,4 @@
-# Codewars [![Build Status](https://www.codewars.com/users/art2url/badges/micro)](https://www.codewars.com/users/art2url)
+# [![Build Status](https://www.codewars.com/users/art2url/badges/large)](https://www.codewars.com/users/art2url)# Codewars 
 
 CodeWars Solutions. 
 Please leave a star :) Thank you! 
