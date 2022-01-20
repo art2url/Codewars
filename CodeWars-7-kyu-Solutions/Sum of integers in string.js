@@ -5,11 +5,22 @@
 
 // Note: only positive integers will be tested.
 
+// v1 
 const sumOfIntegersInString = (s) => {
     const numbers = s.match(/\d+/g).map(Number);
     const count = numbers.reduce(function(sum, current) {
         return sum + current;
     }, 0);
+    return count;
+}
+
+// v2
+function sumOfIntegersInString(s) {
+    let count = 0;
+    let numbers = s.match(/\d+/g);
+    numbers.forEach(function(elem) {
+        count += +(elem)
+    });
     return count;
 }
 
