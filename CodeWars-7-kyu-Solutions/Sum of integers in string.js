@@ -24,6 +24,16 @@ function sumOfIntegersInString(s) {
     return count;
 }
 
+// v3
+function sumOfIntegersInString(s) {
+    const arrOfString = s.match(/\d+/g);
+    let count = 0;
+    for (let i = 0; i < arrOfString.length; i++) {
+        count += +(arrOfString[i])
+    }
+    return count;
+}
+
 sumOfIntegersInString(
     "The30quick20brown10f0x1203jumps914ov3r1349the102l4zy dog"
 )
