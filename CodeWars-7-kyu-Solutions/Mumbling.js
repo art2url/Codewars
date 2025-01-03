@@ -8,11 +8,29 @@ accum("cwAt") -> "C-Ww-Aaa-Tttt"
 The parameter of accum is a string which includes only letters from a..z and A..Z.
 */
 
-export function accum(s: string): string {
-  return s
-    .split('')
-    .map((char, index) => char.toUpperCase() + char.toLowerCase().repeat(index))
-    .join('-');
+function accum(s) {
+  const divider = '-';
+  const arrOfMumblings = [];
+  const newArrOfMumblings = [];
+
+  for (let i = 0; i < s.length; i++) {
+    arrOfMumblings.push(s[i].toUpperCase());
+    for (let j = 0; j < i; j++) {
+      arrOfMumblings.push(s[i].toLowerCase());
+    }
+  }
+
+  let isFirst = true;
+  for (const el of arrOfMumblings) {
+    if (!isFirst && el === el.toUpperCase()) {
+      newArrOfMumblings.push(`${divider}${el}`);
+    } else {
+      newArrOfMumblings.push(el);
+    }
+    isFirst = false;
+  }
+
+  return newArrOfMumblings.join('');
 }
 
 accum('abcd'); // "A-Bb-Ccc-Dddd"
